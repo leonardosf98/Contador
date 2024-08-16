@@ -11,7 +11,7 @@ public class Contador {
         try {
             count(firstParameter, secondParameter);
         }catch (ParametrosInvalidosException exception) {
-                exception.printStackTrace();
+            System.out.println("Ocorreu um erro: " + exception.getMessage());
             }
     }
 
